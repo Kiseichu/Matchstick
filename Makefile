@@ -11,7 +11,6 @@ SRC				=	src/main.c		\
 					src/error.c		\
 					src/remove_pip.c\
 					src/art_int.c	\
-					src/win.c		\
 					src/line_and_match.c
 
 
