@@ -10,12 +10,10 @@ jobs:
   build:
     runs-on: ubuntu
     steps:
-    - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    -name: Compiled program work
+    run: make
+    -name: program test
+    run: ./matchstick 5 5
+    -name: run fclean
+    run: make fclean
+
