@@ -12,8 +12,6 @@ jobs:
     steps:
     -name: Compiled program work
     run: make
-    -name: program test
-    run: ./matchstick 5 5
     -name: run fclean
     run: make fclean
 
