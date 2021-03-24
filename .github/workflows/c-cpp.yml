@@ -7,11 +7,10 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-    runs-on: ubuntu
-    steps:
-    -name: Compiled program work
-    run: make
-    -name: run fclean
-    run: make fclean
+  runs-on: ubuntu
+  steps:
+  -name: Compiled program work
+  run: make
+  -name: run fclean
+  run: make fclean
 
